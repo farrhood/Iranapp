@@ -1,4 +1,18 @@
+<% if user_signed_in? %>
 <div class="jumbotron center">
-<h1>Hello Iran</h1>
-<p>Click here to <%= link_to "Sign up", "#", class: "btn btn-success" %></p>
+	<div class="panel panel-default">
+    	<div class="panel-body">
+<h1>درود خوش آمدید</h1>
+<h2>dorood, khosh amadid</h2>
+<h2>hello, welcome</h2>
+  		</div>
+	</div>
 </div>
+
+<% else %>
+<div class="jumbotron center">
+<h1 style="color: #ecf0f1;">Hello Iran</h1>
+</div>
+<h3 style="text-align: center">Click here to <%= link_to "Sign up", new_user_registration_path, class: "btn btn-success" %></h3>
+<% end %>
+
