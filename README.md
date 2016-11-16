@@ -1,24 +1,5 @@
-# README
+# Iranapp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Iranapp is a photo application that allows users to share a view of Iran that is rarely seen by outsiders. It aims to do this by exhibiting photographs of Iran's people, landscapes, art and culture.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+By farrhood
