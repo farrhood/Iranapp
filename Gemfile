@@ -13,6 +13,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.6'
+gem 'masonry-rails', '~> 0.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
