@@ -11,8 +11,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'paperclip'
-gem 'aws-sdk'
+gem 'paperclip', '~> 5.1'
+gem 'aws-sdk', '~> 2.6'
 
 group :development, :test do
   gem 'byebug', platform: :mri
