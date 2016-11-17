@@ -1,6 +1,8 @@
 $navbar-default-link-color: black;
 
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
 
 .center {
     text-align: center;
@@ -14,4 +16,9 @@ $navbar-default-link-color: black;
 
 .navbar-brand {
     font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-default {
+    font-size: 20px;
 }
