@@ -14,6 +14,8 @@ gem 'devise'
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.6'
 gem 'masonry-rails', '~> 0.2'
+gem 'will_paginate', '~> 3.1.5'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
   gem 'byebug', platform: :mri
