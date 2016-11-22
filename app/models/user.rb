@@ -7,4 +7,6 @@ class User < ApplicationRecord
   has_many :pins
 
   validates :name, presence: true
+
+  acts_as_commontator
 end

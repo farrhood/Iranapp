@@ -10,9 +10,16 @@
 </div>
 
 <% else %>
-<div class="jumbotron center">
-<h1 style="color: #ecf0f1;">Hello Iran</h1>
+<div class="jumbotron center", id="first">
+<h1 style="color: #ecf0f1;"></h1>
 </div>
-<h3 style="text-align: center">Click here to <%= link_to "Sign up", new_user_registration_path, class: "btn btn-success" %></h3>
+<h3 style="text-align: center"><%= link_to "Sign up", new_user_registration_path, class: "btn btn-success btn-lg" %></h3>
+
+
+<div class="jumbotron center", id="second">
+<h3 style="color: #ecf0f1;">Hello Iran is a photo application that aims to share a view of Iran rarely seen by outsiders.</h3>
+</div>
+
+
 <% end %>
 

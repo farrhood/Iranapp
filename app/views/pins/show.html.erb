@@ -14,7 +14,12 @@
         <p><strong><%= @pin.user.name if @pin.user %></strong></p>
 
         <% if @pin.user == current_user %>
-         <%= link_to 'Edit', edit_pin_path(@pin) %>
+        
+          <%= link_to raw('<button><span class="glyphicon glyphicon-pencil"></span></button>'), edit_pin_path(@pin) %>
+          <%= link_to raw('<button><span class="glyphicon glyphicon-trash"></span></button>'), @pin, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+          <%= commontator_thread(@pin) %>
+        
         <% end %>
 
       </div>

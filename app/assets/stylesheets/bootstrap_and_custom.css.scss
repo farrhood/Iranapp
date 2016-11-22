@@ -6,12 +6,22 @@ $navbar-default-link-color: black;
 
 .center {
     text-align: center;
+    background-image: url(http://static.boredpanda.com/blog/wp-content/uploads/2014/10/beautiful-mosque-ceiling-261__880.jpg); 
+
 }
 
-.jumbotron {
+#first {
+    height:500px;
+    background-size: cover;
     background-image: url(http://static.boredpanda.com/blog/wp-content/uploads/2014/10/beautiful-mosque-ceiling-261__880.jpg); 
     color: #f1c40f;
     font-weight: bold;
+}
+
+#second {
+    margin-top: 25px;
+    background-image: url(http://www.hpcf.upr.edu/~abel/phl/star_field_full_gal.jpg);
+    color: #f39c12;
 }
 
 .navbar-brand {
