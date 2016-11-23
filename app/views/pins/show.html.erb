@@ -1,8 +1,8 @@
-<%= link_to 'Back', pins_path %>
+<%= link_to raw('<button>Back</button>'), pins_path %>
 
 <div class="row">
   <div class="col-md-offset-2 col-md-8">
-    <div class="panel panel-primary">
+    <div class="panel panel-default">
       <div class="panel-heading center">
 
         <%= image_tag @pin.image.url(:medium) %>
