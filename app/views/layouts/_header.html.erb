@@ -1,12 +1,12 @@
 <nav class="navbar navbar-default" role="navigation">
+
 <div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+
+
     </button>
     <%= link_to "Hello Iran", root_path, class: "navbar-brand" %>
   </div>
@@ -19,7 +19,13 @@
 
 
       <li><%= link_to raw('<span class="glyphicon glyphicon-plus-sign"></span>'), new_pin_path %></li>
+
       <% end %>
+
+
+
+      <li><%= link_to raw('<span class="glyphicon glyphicon-book"></span>'), story_path %></li>
+
 
 
       <li><%= link_to raw('<span class="glyphicon glyphicon-camera"></span>'), pins_path %></li>
